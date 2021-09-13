@@ -21,6 +21,7 @@ contract Auction{
         auctionEndTime = block.timestamp + _biddingtime;
     }
     
+    //
     function bid() public payable{
         if(block.timestamp > auctionEndTime) revert('The aucion has ended');
         
