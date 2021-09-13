@@ -1,6 +1,6 @@
 pragma solidity >= 0.7.0 < 0.9.0;
 
-// An Auction contract that transfers tokens to the highest bidder
+// An Auction contract that transfers tokens to the beneficiary
 contract Auction{
     
     address payable public beneficiary;
